@@ -1,3 +1,6 @@
+" pathogen 
+call pathogen#infect()
+
 " turn on syntax highlighting
 syntax enable
 
@@ -15,3 +18,8 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4	
 set autoindent
+filetype plugin indent on
+
+" plugins
+" autocmd vimenter * NERDTree
+let NERDTreeIgnore=['\.pyc$']
