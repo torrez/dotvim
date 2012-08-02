@@ -18,7 +18,10 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4	
 set autoindent
-filetype plugin indent on
+
+" nice things
+set ruler
+set number
 
 " plugins
 " autocmd vimenter * NERDTree
