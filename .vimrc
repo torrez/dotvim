@@ -23,6 +23,12 @@ set autoindent
 set ruler
 set number
 
+" mouse control
+if has("mouse")
+  set mouse=a
+endif
+
+
 " plugins
 " autocmd vimenter * NERDTree
 let NERDTreeIgnore=['\.pyc$']
