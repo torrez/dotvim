@@ -22,13 +22,11 @@ set autoindent
 " nice things
 set ruler
 set number
+set scrolloff=5
+set scrolljump=5
 
-" mouse control
-if has("mouse")
-  set mouse=a
-endif
-
-
-" plugins
-" autocmd vimenter * NERDTree
-let NERDTreeIgnore=['\.pyc$']
+" powerline stuf
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+let g:Powerline_symbols = 'fancy'
