@@ -1,6 +1,3 @@
-" pathogen 
-call pathogen#infect()
-
 " turn on syntax highlighting
 syntax enable
 
@@ -25,8 +22,3 @@ set number
 set scrolloff=5
 set scrolljump=5
 
-" powerline stuf
-set nocompatible   " Disable vi-compatibility
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
-let g:Powerline_symbols = 'fancy'
