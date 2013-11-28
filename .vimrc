@@ -1,8 +1,5 @@
-" turn on syntax highlighting
-syntax enable
-
-" vibrant ink
-colorscheme vibrantink
+syntax on
+filetype plugin indent on
 
 " turn anything longer than 80 characters red
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
@@ -17,8 +14,16 @@ set softtabstop=4
 set autoindent
 
 " nice things
+set hlsearch
+set incsearch
+set paste
 set ruler
 set number
 set scrolloff=5
 set scrolljump=5
 
+" lazy person
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
