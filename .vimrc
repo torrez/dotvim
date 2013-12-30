@@ -2,8 +2,8 @@ syntax on
 filetype plugin indent on
 
 " turn anything longer than 80 characters red
-"#highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-"#match OverLength /\%81v.\+/
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
 " Tabs and indentation for Python http://www.vex.net/~x/python_and_vim.html
 set expandtab
