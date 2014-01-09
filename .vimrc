@@ -27,3 +27,14 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap <F1> :call SetPaste()<CR>
+nnoremap <F2> :nohl<CR>
+nnoremap <F3> :match OverLength //<CR>
+
+function! SetPaste()
+    if &paste
+        :set nopaste
+    else
+        :set paste
+    endif
+endfunction
