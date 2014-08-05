@@ -5,9 +5,7 @@ filetype plugin indent on
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-" Tabs and indentation for Python http://www.vex.net/~x/python_and_vim.html
 set expandtab
-set smarttab
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4	
