@@ -20,7 +20,7 @@ set ruler
 set number
 set scrolloff=5
 set scrolljump=5
-set tags=~/ctags
+set tags=~/tags
 
 " lazy person
 nnoremap <C-J> <C-W><C-J>
