@@ -1,2 +1,4 @@
 set guifont=Source\ Code\ Pro:h16
-colorscheme torte
+set background=dark
+colorscheme solarized
+set colorcolumn=80
