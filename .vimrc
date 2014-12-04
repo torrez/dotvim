@@ -29,3 +29,5 @@ set pastetoggle=<F1>
 nnoremap <F2> :nohl<CR>
 nnoremap <F3> :match OverLength //<CR>
 
+" ctags
+set tags=tags
