@@ -1,3 +1,4 @@
+" Setup syntax highlighting
 syntax on
 filetype plugin indent on
 
@@ -8,7 +9,7 @@ match OverLength /\%81v.\+/
 set expandtab
 set shiftwidth=4
 set tabstop=4
-set softtabstop=4	
+set softtabstop=5
 set autoindent
 
 " nice things
@@ -28,4 +29,9 @@ nnoremap <C-H> <C-W><C-H>
 set pastetoggle=<F1>
 nnoremap <F2> :nohl<CR>
 nnoremap <F3> :match OverLength //<CR>
+
+" show me the tabs
+set list lcs=trail:·,tab:\|\ 
+hi NonText ctermfg=7 guifg=gray
+hi SpecialKey ctermfg=66 guifg=gray
 
