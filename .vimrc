@@ -35,3 +35,5 @@ set list lcs=trail:·,tab:\|\
 hi NonText ctermfg=7 guifg=gray
 hi SpecialKey ctermfg=66 guifg=gray
 
+" ctags
+set tags=tags
