@@ -31,9 +31,9 @@ nnoremap <F2> :nohl<CR>
 nnoremap <F3> :match OverLength //<CR>
 
 " show me the tabs
-set list lcs=trail:·,tab:\|\ 
-hi NonText ctermfg=7 guifg=gray
-hi SpecialKey ctermfg=66 guifg=gray
+
+set list lcs=trail:·,tab:\╶\─
+hi SpecialKey ctermfg=DarkGray ctermbg=0
 
 " ctags
 set tags=tags
