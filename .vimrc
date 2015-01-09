@@ -32,8 +32,11 @@ nnoremap <F3> :match OverLength //<CR>
 
 " show me the tabs
 
-set list lcs=trail:·,tab:\╶\─
+set list lcs=trail:·,tab:\┊\─
 hi SpecialKey ctermfg=DarkGray ctermbg=0
 
 " ctags
-set tags=tags
+set tags=tags;
+
+" ctrl-p
+set runtimepath^=~/.vim/bundle/ctrlp.vim
